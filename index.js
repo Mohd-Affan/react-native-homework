@@ -12,4 +12,4 @@ import Hexcolor from './src/components/Hexcolor';
 import Loaders from './src/components/Loaders';
 import Navigate from './src/components/Navigate';
 
-AppRegistry.registerComponent(appName, () => Getfetch);
+AppRegistry.registerComponent(appName, () => Apps);
