@@ -21,7 +21,7 @@ import {
   StyleSheet,
 } from 'react-native';
 
-export default class App extends Component {
+export default class Otp extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -136,7 +136,7 @@ export default class App extends Component {
                       paddingTop: 3,
                     }}
                     onPress={() =>
-                      alert(
+                      Alert.alert(
                         `${this.state.pin1}${this.state.pin2}${this.state.pin3}${this.state.pin4}`,
                       )
                     }>
