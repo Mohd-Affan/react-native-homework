@@ -25,7 +25,10 @@
 // AppRegistry.registerComponent(appName, () => App);
 
 import {AppRegistry} from 'react-native';
-import App from './App';
+// import App from './App';
 import {name as appName} from './app.json';
-import Route from './App';
-AppRegistry.registerComponent(appName, () => App);
+import {Route} from './src/components/Route';
+import Listflat from './src/components/Listflat';
+import Myntra from './src/components/Myntra';
+import TabNav from './src/components/TabNav';
+AppRegistry.registerComponent(appName, () => TabNav);
