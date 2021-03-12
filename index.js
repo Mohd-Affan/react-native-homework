@@ -31,4 +31,6 @@ import {Route} from './src/components/Route';
 import Listflat from './src/components/Listflat';
 import Myntra from './src/components/Myntra';
 import TabNav from './src/components/TabNav';
-AppRegistry.registerComponent(appName, () => TabNav);
+
+import New from './src/components/New';
+AppRegistry.registerComponent(appName, () => New);
