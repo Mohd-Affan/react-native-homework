@@ -36,4 +36,7 @@ import {name as appName} from './app.json';
 import Fruits from './src/components/Fruits';
 import Gradient from './src/Screens/Gradient';
 import ModalEx from './src/components/ModalEx';
-AppRegistry.registerComponent(appName, () => Gradient);
+import Login from './src/components/Login';
+import Navigate from './src/components/Navigate';
+import Home from './src/components/Home';
+AppRegistry.registerComponent(appName, () => Navigate);
