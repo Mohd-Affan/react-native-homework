@@ -39,4 +39,5 @@ import ModalEx from './src/components/ModalEx';
 import Login from './src/components/Login';
 import Navigate from './src/components/Navigate';
 import Home from './src/components/Home';
-AppRegistry.registerComponent(appName, () => Navigate);
+import Ball from './src/components/Ball';
+AppRegistry.registerComponent(appName, () => Ball);

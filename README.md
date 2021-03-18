@@ -1,25 +1,10 @@
 <div align='center'>Assignment 17-03-21</div>
+<div align='center'>The code for draggable ball is inside src-->components-->Ball</div>
 
 **Screenshots**
 
 <div align='center'>
 
-![First](./src/assets/ss1.png)
-
-</div>
-
-**Screenshots**
-
-<div align='center'>
-
-![Second](./src/assets/ss2.png)
-
-</div>
-
-**Screenshots**
-
-<div align='center'>
-
-![Third](./src/assets/ss3.png)
+![First](./src/assets/ballvid.gif)
 
 </div>

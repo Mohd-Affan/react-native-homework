@@ -18,14 +18,12 @@ export default class Home extends Component {
   clearAll = async () => {
     try {
       await AsyncStorage.clear();
+      this.props.navigation.reset({
+        index: 0,
+        routes: [{name: 'Login'}],
+      });
     } catch (e) {}
   };
-
-  // removeValue = async () => {
-  //   try {
-  //     await AsyncStorage.removeItem('Name');
-  //   } catch (e) {}
-  // };
 
   Click = () => {
     Alert.alert('alert', 'do you want to clear data', [
@@ -33,7 +31,7 @@ export default class Home extends Component {
         text: 'ok',
         onPress: () => {
           this.clearAll();
-          this.props.navigation.navigate('Login');
+          // this.props.navigation.navigate('Login');
         },
       },
       {
