@@ -40,4 +40,5 @@ import Login from './src/components/Login';
 import Navigate from './src/components/Navigate';
 import Home from './src/components/Home';
 import Ball from './src/components/Ball';
-AppRegistry.registerComponent(appName, () => Ball);
+import Pages from './src/components/Pages';
+AppRegistry.registerComponent(appName, () => Pages);
