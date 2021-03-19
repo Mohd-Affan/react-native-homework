@@ -1,10 +1,10 @@
-<div align='center'>Assignment 17-03-21</div>
-<div align='center'>The code for draggable ball is inside src-->components-->Ball</div>
+<div align='center'>Assignment 19-03-21</div>
+<div align='center'>The code for carousel is inside src-->components-->Pages</div>
 
 **Screenshots**
 
 <div align='center'>
 
-![First](./src/assets/ballvid.gif)
+![First](./src/assets/carousel.gif)
 
 </div>
