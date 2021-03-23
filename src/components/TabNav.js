@@ -6,16 +6,9 @@ import {SafeAreaView} from 'react-native-safe-area-context';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import IconAntDesign from 'react-native-vector-icons/AntDesign';
 import Myntra from './Myntra';
+import Account from './Account';
 
 const Tab = createBottomTabNavigator();
-
-// function Home() {
-//   return (
-//     <View style={styles.tabBar}>
-//       <Text>Home</Text>
-//     </View>
-//   );
-// }
 
 function Categories() {
   return (
@@ -35,13 +28,6 @@ function WishList() {
   return (
     <View style={styles.tabBar}>
       <Text>Wishlist</Text>
-    </View>
-  );
-}
-function Account() {
-  return (
-    <View style={styles.tabBar}>
-      <Text>Account</Text>
     </View>
   );
 }
