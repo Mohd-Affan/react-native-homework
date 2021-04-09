@@ -55,11 +55,7 @@ export default function PlaylistScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.description}>
-        We'll be inserting a playlist into the library loaded from
-        `playlist.json`. We'll also be using the `ProgressComponent` which
-        allows us to track playback time.
-      </Text>
+      <Text style={styles.description}>Play Music</Text>
       <Player
         onNext={skipToNext}
         style={styles.player}
@@ -109,12 +105,21 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   description: {
-    width: '80%',
+    width: '70%',
     marginTop: 20,
     textAlign: 'center',
   },
   player: {
-    marginTop: 40,
+    marginTop: 200,
+    backgroundColor: 'pink',
+    width: '70%',
+    shadowColor: 'purple',
+    shadowRadius: 10,
+    shadowOpacity: 2,
+    shadowOffset: {
+      height: 4,
+      width: 4,
+    },
   },
   state: {
     marginTop: 20,

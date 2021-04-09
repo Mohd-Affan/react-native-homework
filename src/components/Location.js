@@ -40,20 +40,20 @@ const Location = () => {
         <MapView
           style={styles.map}
           initialRegion={{
-            latitude: 37.78825,
-            longitude: -122.4324,
+            latitude: 36.7783,
+            longitude: -119.4179,
             latitudeDelta: 0.0,
             longitudeDelta: 0.0,
           }}>
           <MapView.Marker
-            coordinate={{latitude: 37.78825, longitude: -122.4324}}
-            title={'title'}
-            description={'description'}
+            coordinate={{latitude: 36.7783, longitude: -119.4179}}
+            title={'Current Location'}
+            description={'California'}
           />
         </MapView>
       </View>
       <View style={styles.geolocation}>
-        <Text>Geolocation Services Example</Text>
+        <Text>Geolocation</Text>
         <Button title={'Get Users Current Location'} onPress={getLocation} />
         <Text>
           User Location : Latitute : {coord.lat} Longitude : {coord.lng}{' '}

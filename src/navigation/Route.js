@@ -14,7 +14,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <NavigationContainer>
-        <Stack.Navigator>
+        <Stack.Navigator initialRouteName={Home}>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="Location" component={Location} />
           <Stack.Screen name="VideoComponent" component={VideoComponent} />
