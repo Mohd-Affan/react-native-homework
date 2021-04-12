@@ -1,9 +1,9 @@
-<div align='center'>Assignment 9-04-21</div>
+<div align='center'>Assignment 12-04-21</div>
 
 **Screenshots**
 
 <div align='center'>
 
-![First](./src/assets/Notification.gif)
+![First](./src/assets/GoogleSignIn.gif)
 
 </div>
